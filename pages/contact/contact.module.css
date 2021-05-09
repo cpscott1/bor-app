@@ -1,0 +1,157 @@
+.header {
+  height: 6.5rem;
+  background: #662A82;
+  font-family: "Space Grotesk";
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.linkContainer {
+
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.item {
+  align-self: center;
+  margin-top: 15px;
+}
+
+.item a {
+  font-size: 22px;
+  color: #fff;
+}
+
+.contact {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contactCont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactCont h2 {
+  align-self: center;
+  font-family: "Space Grotesk";
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.formCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background: #662A82;
+  height: 975px;
+  width: 50%;
+}
+.textCont {
+  font-family: "Space Grotesk";
+  width: 30%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.textCont h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.textCont span {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  border-top: 4px solid #fff;
+  width: 25%;
+  margin-left: 80px;
+}
+
+.textCont p {
+  width: 75%;
+}
+
+.nameEmail {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.name {
+  margin-right: 10px;
+}
+
+.inputCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputCont label {
+  padding-bottom: 10px;
+  color: #fff;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+}
+
+.inputCont input {
+  height: 35px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.inputCont textarea {
+  height: 250px;
+  outline: none;
+}
+
+.buttonCont {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  background: none;
+  border: 1px solid black;
+  outline: none;
+  padding: 15px 30px;
+  color: #fff;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Space Grotesk";
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
