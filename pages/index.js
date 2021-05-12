@@ -63,7 +63,7 @@ export default function Home() {
             <div className={styles.serviceCard2}>
               <Image src="/statistics.svg" width={100} height={100}/>
               <h3>Text Analysis</h3>
-              <p>-Sort unstructured text for valuable insight</p>
+              <p>Sort unstructured text for valuable insight</p>
             </div>
             <div className={styles.serviceCard}>
               <Image src="/benefits.svg" width={100} height={100}/>

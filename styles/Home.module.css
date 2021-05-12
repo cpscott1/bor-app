@@ -87,6 +87,8 @@
 
 .serviceGrid {
   display: grid;
+  width: 75%;
+  margin: 0 auto;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -138,7 +140,6 @@
   color: #fff;
   width: 75%;
   align-self: center;
-  width: 50%;
 }
 
 .serviceCard p {
@@ -147,7 +148,6 @@
   color: black;
   width: 75%;
   align-self: center;
-  width: 50%;
 }
 
 .workHead h2 {
