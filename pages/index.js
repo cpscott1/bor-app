@@ -46,34 +46,34 @@ export default function Home() {
             <div className={styles.serviceCard}>
               <Image src="/data-driven.svg" width={100} height={100}/>
               <h3>Data Analysis</h3>
-              <p>Manage multiple complex projects with ease</p>
+              <p>Transform and model data for better business intelligence</p>
             </div>
             <div className={styles.serviceCard2}>
               <Image src="/monitor.svg" width={100} height={100}/>
-              <h3>Spatial Analysis</h3>
-              <p>Manage multiple complex projects with ease</p>
+              <h3>Geospatial Analysis</h3>
+              <p>Understand the geographic factors that impact your story</p>
             </div>
             <div className={styles.serviceCard}>
               <Image src="/chat.svg" width={100} height={100}/>
-              <h3>Communications</h3>
-              <p>Manage multiple complex projects with ease</p>
+              <h3>Network Data</h3>
+              <p>Use networks and graph theory to understand social structures</p>
             </div>
           </div>
           <div className={styles.serviceGrid}>
             <div className={styles.serviceCard2}>
               <Image src="/statistics.svg" width={100} height={100}/>
-              <h3>Statistics</h3>
-              <p>Manage multiple complex projects with ease</p>
+              <h3>Text Analysis</h3>
+              <p>-Sort unstructured text for valuable insight</p>
             </div>
             <div className={styles.serviceCard}>
               <Image src="/benefits.svg" width={100} height={100}/>
-              <h3>Economics</h3>
-              <p>Manage multiple complex projects with ease</p>
+              <h3>Econometrics</h3>
+              <p>Apply statistical methods to economic data</p>
             </div>
             <div className={styles.serviceCard2}>
               <Image src="/research.svg" width={100} height={100}/>
               <h3>Data Visualization</h3>
-              <p>Manage multiple complex projects with ease</p>
+              <p>Better charts, graphs and maps to tell your storye</p>
             </div>
           </div>
         </section>
