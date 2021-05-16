@@ -4,7 +4,6 @@ import Image from "next/image";
 import Header from "../components/header/Header";
 import Menu from "../components/menu/Menu";
 import styles from "../styles/Home.module.css";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 import gsap from "gsap";
 
