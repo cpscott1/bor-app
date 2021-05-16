@@ -1,6 +1,6 @@
 .header {
   height: 6.5rem;
-  background: #662A82;
+  background: #662a82;
   font-family: "Space Grotesk";
 }
 
@@ -17,7 +17,6 @@
 }
 
 .linkContainer {
-
 }
 
 .links {
@@ -58,9 +57,17 @@
   justify-content: center;
   align-items: center;
   align-self: center;
-  background: #662A82;
+  background: #662a82;
   height: 975px;
   width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .formCont {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
 }
 .textCont {
   font-family: "Space Grotesk";
@@ -70,9 +77,24 @@
   flex-direction: column;
 }
 
+@media only screen and (max-width: 600px) {
+  .textCont {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 .textCont h3 {
   font-size: 40px;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .textCont h3 {
+    font-size: 20px;
+  }
 }
 
 .textCont span {
@@ -84,8 +106,20 @@
   margin-left: 80px;
 }
 
+@media only screen and (max-width: 600px) {
+  .textCont span {
+    margin-left: 0;
+  }
+}
+
 .textCont p {
   width: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+  .textCont p {
+    margin: 0 auto;
+  }
 }
 
 .nameEmail {
@@ -94,13 +128,32 @@
   grid-template-columns: 1fr 1fr;
 }
 
+@media only screen and (max-width: 600px) {
+  .nameEmail {
+    grid-template-columns: 1fr;
+  }
+}
+
 .name {
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .name {
+    margin-right: 0;
+  }
 }
 
 .inputCont {
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .inputCont {
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 
 .inputCont label {
