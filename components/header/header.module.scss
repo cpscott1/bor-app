@@ -1,0 +1,76 @@
+.header {
+  width: 100%;
+  padding: 15px 0;
+  font-family: "Space Grotesk";
+  background: #662a82;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    &__logoCont {
+      margin: 0;
+      margin-left: 15px;
+      &_img {
+        width: 103px;
+      }
+    }
+    &__linkCont {
+      justify-self: flex-end;
+      display: flex;
+      color: #000;
+      &_menu {
+        background-color: #662a82;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 300;
+
+        svg {
+          margin-left: 3px;
+        }
+      }
+      &__links {
+        display: none;
+      }
+    }
+  }
+
+  &__studio_header {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header {
+    &__grid {
+      &__logoCont {
+        margin: 0 30px;
+        &_img {
+          width: 263px;
+        }
+      }
+      &__linkCont {
+        &_menu {
+          display: none;
+        }
+        &__links {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          &_item {
+            margin: 0 15px;
+            align-self: center;
+            a {
+              text-decoration: none;
+              color: #000;
+              font-size: 22px;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
