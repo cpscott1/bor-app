@@ -30,7 +30,8 @@ export default function Contact() {
                 </p>
               </div>
             </div>
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
+              <input type="hidden" name="contact-form" value="contact" />
               <div className={styles.nameEmail}>
                 <div className={styles.inputCont}>
                   <label>Name</label>
