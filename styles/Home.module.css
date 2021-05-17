@@ -73,13 +73,13 @@
 .heroText {
   font-family: "Space Grotesk";
   color: #fff;
-  font-size: 70px;
+  font-size: 6.25rem;
   font-weight: bold;
-  height: 40rem;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 20rem;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -90,7 +90,7 @@
   }
 
   .heroText {
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-left: 0;
     align-items: center;
     height: 27rem;
