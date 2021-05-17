@@ -81,22 +81,25 @@ const Home = () => {
               <div className={styles.workText}>
                 <h3 className={styles.workHeading}>Data Records</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer dignissim sit amet lorem a bibendum.{" "}
+                  Once we understand your business needs, we pull data from
+                  everywhere to turn your problem into a solution.{" "}
                 </p>
               </div>
               <div className={styles.workText}>
-                <h3 className={styles.workHeading}>Data Translator</h3>
+                <h3 className={styles.workHeading}>
+                  Exploratory Data Anaylsis
+                </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer dignissim sit amet lorem a bibendum.{" "}
+                  We look for patterns through the application of statistical
+                  and technical knowledge and leverage every data science tool
+                  at our disposal.{" "}
                 </p>
               </div>
               <div className={styles.workText}>
-                <h3 className={styles.workHeading}>AI Algorithm</h3>
+                <h3 className={styles.workHeading}>Models and Story Telling</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer dignissim sit amet lorem a bibendum.{" "}
+                  Communication and visualizations help to make these insights
+                  actionable.{" "}
                 </p>
               </div>
             </div>
