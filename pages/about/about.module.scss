@@ -8,6 +8,7 @@
 
 @media only screen and (max-width: 1200px) {
   .about {
+    margin-top: 0;
     height: 800px;
   }
 }
@@ -15,6 +16,9 @@
 .aboutCont {
   background: #f5f9fa;
   height: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
 }
 
 .aboutTextCont {
