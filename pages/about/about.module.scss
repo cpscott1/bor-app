@@ -6,28 +6,28 @@
   font-family: "Space Grotesk";
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1201px) {
   .about {
-    height: 600px;
     margin-bottom: 30px;
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .about {
-    height: 85vh;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .about {
     height: 1200px;
   }
 }
 
-@media only screen and (min-width: 1201px) {
+@media only screen and (max-width: 768px) {
   .about {
-    height: 800px;
+    height: 85vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    height: 100%;
+    justify-content: center;
     margin-bottom: 30px;
   }
 }
@@ -94,4 +94,10 @@
   text-align: center;
   color: #fff;
   font-family: "Space Grotesk";
+}
+
+@media only screen and (min-width: 1201px) {
+  .footer {
+    position: fixed;
+  }
 }
