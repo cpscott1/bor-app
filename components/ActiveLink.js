@@ -1,4 +1,5 @@
 import { withRouter } from "next/router";
+import styles from "./link.module.scss";
 
 const ActiveLink = ({ router, href, children }) => {
   (function prefetchPages() {
@@ -17,6 +18,7 @@ const ActiveLink = ({ router, href, children }) => {
   return (
     <div>
       <a
+        className={styles.linkHover}
         href={href}
         onClick={handleClick}
         style={{ color: isCurrentPath ? "#5e9af2" : "#fff" }}

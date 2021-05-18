@@ -35,13 +35,19 @@ export default function Header({ state, setState }) {
 
             <ul className={styles.header__grid__linkCont__links}>
               <li className={styles.header__grid__linkCont__links_item}>
-                <ActiveLink href="/">Home</ActiveLink>
+                <ActiveLink className={styles.linkHover} href="/">
+                  Home
+                </ActiveLink>
               </li>
               <li className={styles.header__grid__linkCont__links_item}>
-                <ActiveLink href="/about">About</ActiveLink>
+                <ActiveLink className={styles.linkHover} href="/about">
+                  About
+                </ActiveLink>
               </li>
               <li className={styles.header__grid__linkCont__links_item}>
-                <ActiveLink href="/contact">Contact</ActiveLink>
+                <ActiveLink className={styles.linkHover} href="/contact">
+                  Contact
+                </ActiveLink>
               </li>
             </ul>
           </div>
