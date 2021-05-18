@@ -63,6 +63,12 @@
   width: 50%;
 }
 
+@media only screen and (max-width: 1200px) {
+  .formCont {
+    width: 75%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .formCont {
     display: grid;
@@ -116,6 +122,12 @@
   border-top: 4px solid #fff;
   width: 25%;
   margin-left: 80px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .textCont span {
+    margin-left: 0;
+  }
 }
 
 @media only screen and (max-width: 600px) {
