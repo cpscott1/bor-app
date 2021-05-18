@@ -43,6 +43,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 
 .contactCont h2 {
@@ -203,8 +204,6 @@
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   height: 100px;
   background: #000;
