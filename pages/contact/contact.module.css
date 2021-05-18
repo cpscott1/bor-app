@@ -79,7 +79,13 @@
 
 .touch {
   position: relative;
-  bottom: 50px;
+  bottom: 3.125rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .touch {
+    position: static;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -98,7 +104,7 @@
 
 @media only screen and (max-width: 600px) {
   .textCont h3 {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 

@@ -22,7 +22,7 @@ export default function Contact() {
             <div className={styles.textCont}>
               <div className={styles.touch}>
                 <div>
-                  <h3>Get in touch</h3>
+                  <h3 className={styles.touchTitle}>Get in touch</h3>
                 </div>
                 <span></span>
               </div>
