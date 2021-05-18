@@ -66,8 +66,8 @@
 
 @media only screen and (max-width: 1200px) {
   .aboutTextCont h2 {
-    font-size: 1.5rem;
-    margin-top: 2rem;
+    font-size: 2rem;
+    margin-top: 1rem;
   }
 }
 
@@ -78,9 +78,15 @@
   font-size: 1.5rem;
 }
 
+@media only screen and (min-width: 1200px) {
+  .aboutTextCont p {
+    font-size: 2rem;
+    width: 90%;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .aboutTextCont p {
-    font-size: 1rem;
     width: 90%;
   }
 }
