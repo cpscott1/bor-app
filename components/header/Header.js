@@ -3,6 +3,7 @@ import styles from "./header.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 import { GiHamburgerMenu } from "react-icons/gi";
+import ActiveLink from "../ActiveLink";
 
 export default function Header({ state, setState }) {
   const handleClick = () => {
@@ -15,14 +16,14 @@ export default function Header({ state, setState }) {
       <div className="container">
         <div className={styles.header__grid}>
           <div className={styles.header__grid__logoCont}>
-            <Link href="/">
+            <ActiveLink href="/">
               <a>
                 <img
                   src="/images/Horizontal_Lockup_Dark.png"
                   className={styles.header__grid__logoCont_img}
                 />
               </a>
-            </Link>
+            </ActiveLink>
           </div>
           <div className={styles.header__grid__linkCont}>
             <button
@@ -34,15 +35,13 @@ export default function Header({ state, setState }) {
 
             <ul className={styles.header__grid__linkCont__links}>
               <li className={styles.header__grid__linkCont__links_item}>
-                <Link href="/">
-                  <a>Home</a>
-                </Link>
+                <ActiveLink href="/">Home</ActiveLink>
               </li>
               <li className={styles.header__grid__linkCont__links_item}>
-                <a href="/about">About</a>
+                <ActiveLink href="/about">About</ActiveLink>
               </li>
               <li className={styles.header__grid__linkCont__links_item}>
-                <a href="/contact">Contact</a>
+                <ActiveLink href="/contact">Contact</ActiveLink>
               </li>
             </ul>
           </div>
