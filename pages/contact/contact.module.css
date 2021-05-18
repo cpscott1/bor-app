@@ -77,6 +77,11 @@
   flex-direction: column;
 }
 
+.touch {
+  position: relative;
+  bottom: 50px;
+}
+
 @media only screen and (max-width: 600px) {
   .textCont {
     width: 100%;

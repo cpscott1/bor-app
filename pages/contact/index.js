@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "next/image";
 
 import Header from "../../components/header/Header";
 import Menu from "../../components/menu/Menu";
@@ -19,15 +20,14 @@ export default function Contact() {
           <h2>Contact</h2>
           <div className={styles.formCont}>
             <div className={styles.textCont}>
-              <div>
-                <h3>Thanks For Reaching Out!</h3>
+              <div className={styles.touch}>
+                <div>
+                  <h3>Get in touch</h3>
+                </div>
+                <span></span>
               </div>
-              <span></span>
               <div>
-                <p>
-                  Fill out the form and someone from our team will reach out
-                  within 24 to 72 hours.
-                </p>
+                <Image src="/images/BorBar-dark.png" width={200} height={200} />
               </div>
             </div>
             <form name="contact" method="POST" data-netlify="true">
