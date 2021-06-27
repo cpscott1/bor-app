@@ -113,7 +113,7 @@ const Home = () => {
         <section id="contact">
           <div>
             <p className={styles.reachText}>Want to get in touch? Reach out at</p>
-            <p className={styles.email}>dwayne.marks@blackorchidresearch.com</p>
+            <a href="mailto:blackorchidresearch@gmail.com" className={styles.email}><span>blackorchidresearch@gmail.com</span></a>
           </div>
         </section>
       </main>
