@@ -109,7 +109,7 @@ export default function Menu({ state, setState }) {
             }}
             onClick={onClick}
           >
-            <CustomLink name="Contact" path="/contact" />
+            <CustomLink name="Contact" path="#contact" />
           </li>
         </ul>
       </div>

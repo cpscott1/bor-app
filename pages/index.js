@@ -37,7 +37,7 @@ const Home = () => {
           </div>
           <div className={styles.serviceGrid}>
             <div className={styles.serviceCard}>
-              <Image src="/data-driven.svg" width={100} height={100} />
+              <Image src="/data-driven.svg" width={50} height={100} />
               <h3>Data Analysis</h3>
               <p>Transform and model data for better business intelligence</p>
             </div>
@@ -108,6 +108,12 @@ const Home = () => {
                 <Image src="/illustrations.svg" width={600} height={500} />
               </div>
             </div>
+          </div>
+        </section>
+        <section id="contact">
+          <div>
+            <p className={styles.reachText}>Want to get in touch? Reach out at</p>
+            <p className={styles.email}>dwayne.marks@blackorchidresearch.com</p>
           </div>
         </section>
       </main>

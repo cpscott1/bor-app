@@ -258,6 +258,41 @@
   font-weight: bold;
 }
 
+.reachText {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 770px) {
+  .reachText {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+
+.email {
+  font-size: 30px;
+  color: #662a82;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .email {
+    font-size: 4vw;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 770px) {
+  .email {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+
 .footer {
   width: 100%;
   height: 100px;

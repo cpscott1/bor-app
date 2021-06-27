@@ -45,7 +45,7 @@ export default function Header({ state, setState }) {
                 </ActiveLink>
               </li>
               <li className={styles.header__grid__linkCont__links_item}>
-                <ActiveLink className={styles.linkHover} href="/contact">
+                <ActiveLink className={styles.linkHover} href="#contact">
                   Contact
                 </ActiveLink>
               </li>
